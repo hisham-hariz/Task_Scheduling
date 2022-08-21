@@ -24,3 +24,7 @@ previous task is out. Thus, the ready queue is a blocking structure.
 ● Context switching time between tasks is zero.
 ● Scheduling time is zero.
 ● The number of cores are at least as many as the number of different priorities.
+
+## Language
+
+The problem is solved using CUDA Architecture(Nvidia)
