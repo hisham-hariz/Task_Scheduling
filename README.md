@@ -1,6 +1,6 @@
-###Problem Statement
+### Problem Statement
 
-##Multicore Task Scheduling
+## Multicore Task Scheduling
 
 In a system, there are M cores. There are N tasks which are present in the ready queue. Each
 task has a different execution time (in seconds). Each core can execute a single task at a time.
@@ -18,7 +18,7 @@ until that particular core is free.
 Since we have only one queue in the system, a task is popped out of the queue only when the
 previous task is out. Thus, the ready queue is a blocking structure.
 
-##Assumptions:
+## Assumptions:
 ● All tasks are in the ready queue at time zero.
 ● All tasks are independent of each other.
 ● Context switching time between tasks is zero.
