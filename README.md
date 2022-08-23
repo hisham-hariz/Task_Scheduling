@@ -2,8 +2,8 @@
 
 ## Multicore Task Scheduling
 
-In a system, there are M cores. There are N tasks which are present in the ready queue. Each
-task has a different execution time (in seconds). Each core can execute a single task at a time.
+For a system having M cores assume there are N tasks which are present in the ready queue. Each
+task might have a different execution time (in seconds). Each core can execute a single task at a time.
 Multiple cores can execute tasks simultaneously.
 Each task has a priority assigned to it. The first task with a particular priority decides on which
 core it can execute (say core 2). It depends on which core is free. When two or more cores are
