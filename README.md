@@ -5,7 +5,7 @@
 For a system having M cores assume there are N tasks which are present in the ready queue. Each
 task might have a different execution time (in seconds). Each core can execute a single task at a time.
 Multiple cores can execute tasks simultaneously.
-Each task has a priority assigned to it. The first task with a particular priority decides on which
+In a practical processor environment, there might be tasks which has a priority greater than others, so let us assume each task has a particular priority assigned to it. The first task with a particular priority decides on which
 core it can execute (say core 2). It depends on which core is free. When two or more cores are
 free, a task should be executed on the core with the smaller ID. E.g. When core 3 and core 5
 are free, then the task will get executed on core 3. Other tasks with the same priority
